@@ -6,7 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        new ConvertNumbers(scanner).start();
+        ConvertNumbers convertNumbers = new ConvertNumbers(scanner);
+        convertNumbers.start();
         scanner.close();
     }
 
